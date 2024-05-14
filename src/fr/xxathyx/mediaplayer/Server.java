@@ -26,7 +26,7 @@ public class Server {
         
 		try {
 						
-			ServerSocket serverSocket = new ServerSocket(8888);
+			ServerSocket serverSocket = new ServerSocket(41);
 			
 	        while(!serverSocket.isClosed()) {
 	        	
