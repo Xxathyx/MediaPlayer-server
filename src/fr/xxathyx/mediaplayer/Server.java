@@ -21,12 +21,11 @@ public class Server {
 	
 	@SuppressWarnings("resource")
 	public static void main(String[] args) throws IOException {
-		
-        System.out.println("Service started, waiting for connection");
-        
+		        
 		try {
 						
-			ServerSocket serverSocket = new ServerSocket(41);
+			ServerSocket serverSocket = new ServerSocket(2048);
+		        System.out.println("Service started, waiting for connection");
 			
 	        while(!serverSocket.isClosed()) {
 	        	
